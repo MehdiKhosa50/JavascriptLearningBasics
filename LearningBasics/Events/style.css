@@ -1,6 +1,6 @@
-.myClass {
-    color:rgb(250, 27, 11);
+.dark {
+    background-color:rgb(14, 13, 13);
 }
-.newClass {
-    background-color: rgb(108, 207, 21);
+.light {
+    background-color: rgb(238, 239, 236);
 }
