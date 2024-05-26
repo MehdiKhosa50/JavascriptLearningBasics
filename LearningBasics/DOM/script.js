@@ -1,14 +1,43 @@
-let h4 = document.querySelector("h2");
-console.dir(h4.innerText);
-h4.innerText = h4.innerText + " From MehdiKhosa";
+let result = document.querySelector("p");
+console.log(result);
+console.log(result.getAttribute("class"));
+console.log(result.classList.add("newClass"));
+console.log(result.classList);
 
-let boxes = document.querySelectorAll(".boxes");
-console.log(boxes);
-let i=1;
-for(box of boxes){
-    box.innerText = `NewBoxes ${i}`;
-    i++
-}
+
+
+
+
+
+
+
+
+// let newBtn = document.createElement("h1");
+// newBtn.innerText = "CLICK ME!";
+// newBtn.style.backgroundColor = "red";
+// newBtn.style.color = "white";
+// document.querySelector("body").prepend(newBtn);
+// document.querySelector("body").append(newBtn);
+// document.querySelector("body").before(newBtn);
+// document.querySelector("body").after(newBtn);
+//newBtn.remove();
+
+
+
+
+
+
+// let h4 = document.querySelector("h2");
+// console.dir(h4.innerText);
+// h4.innerText = h4.innerText + " From MehdiKhosa";
+
+// let boxes = document.querySelectorAll(".boxes");
+// console.log(boxes);
+// let i=1;
+// for(box of boxes){
+//     box.innerText = `NewBoxes ${i}`;
+//     i++
+// }
 
 
 // console.log(boxes[0].innerText);
